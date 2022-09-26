@@ -1,12 +1,68 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
 	background: black;
+	font-family: "Sofadi One", cursive;
 }
 
-h1 {
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.logo {
+	margin-left: 35%;
+	margin-right: 0%;
+	margin-top: 5px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
 	color: black;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+	margin-left: 5px;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+	text-align: justify;
+}
+
+.postcard p {
+	font-size: 13px;
+}
+input {
+	border: none;
+	border-bottom: medium solid rgb(204, 197, 197);
+	margin-right: 5px;
+	font-family: "Sofadi One", cursive;
+	font-size: 13px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	border: none;
+	background-color: rgb(180, 175, 175);
+	padding: 6px;
+	box-shadow: 1px 1px rgb(124, 122, 122);
+	font-family: "Sofadi One", cursive;
+	margin-bottom: 8px;
 }
